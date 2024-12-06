@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+
+    <SECTION>
+
+        <header>
+
+            <div class="container">
+                <center>
+                    <h1>WELCOME TO OUR BANK</h1>
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="signup.html">Sign Up</a></li>
+                            <li><a href="login.html">Log In</a></li>
+                            <li><a href="#features">Features</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+            </div>
+        </header>
+
+        <!-- Banner Section -->
+        <section class="banner">
+            <div class="container">
+                <center>
+                    <h2>Your Trusted Partner in Financial Success</h2>
+                    <p>Secure, reliable, and easy-to-use banking solutions.</p>
+                    <br>
+                    <a href="signup.html" class="btn">Get Started</a>
+            </div>
+        </section>
+
+    </SECTION>
+
+    <!-- Features Section -->
+    <SECTION>
+        <section id="features" class="features">
+            <div class="container">
+                <center>
+                    <h2>Our Features</h2>
+
+                    <div class="feature-item">
+                        <h3>Online Banking</h3>
+                        <p>Access your account 24/7 from anywhere.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>Secure Transactions</h3>
+                        <p>Your security is our priority with encrypted transactions.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>Loan Services</h3>
+                        <p>Apply for personal and business loans with ease.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>24/7 Customer Support</h3>
+                        <p>We’re here to help whenever you need us.</p>
+                    </div>
+            </div>
+        </section>
+    </SECTION>
+
+    <!-- Contact Section -->
+    <SECTION>
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <p>Email: support@bankingsystem.com</p>
+                <p>Phone: +1 (123) 765-1234</p>
+                <p>Address: 12,university road,finance city,786543</p>
+            </div>
+        </section>
+
+
+        <!-- Footer -->
+        <footer>
+            <br>
+            <div class="container">
+                <center>
+                    <p>&copy; 2024 Banking Management System. All rights reserved.</p>
+            </div>
+        </footer>
+        <br>
+        <a href="#" class="previous">&laquo; Previous</a>
+        <a href="#" class="next">Next &raquo;</a>
+
+    </SECTION>
+
+
+    <div class="login-container">
+        <center>
+            <h1>Bank Registration page</h1>
+            <center>
+                <form id="loginForm">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required></br>
+                    </br>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                    </br>
+                    </br>
+
+                    <button type="submit">Login</button>
+
+                    <p id="errorMessage" class="error-message"></p>
+                </form>
+    </div>
+
+
+
+    <div class="signup-container">
+        <center>
+            <h1>Create a New Account</h1>
+            <center>
+                <form id="signupForm">
+                    <!-- User Full Name -->
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                    </br>
+                    </br>
+
+                    <!-- Email Address -->
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+                    </br>
+                    </br>
+
+                    <!-- Phone Number -->
+                    <label for="phone">Phone Number:</label>
+
+                    <input type="tel" id="phone" name="phone" required pattern="[0-9]{10}"
+                        title="Enter a valid 10-digit phone number">
+                    </br>
+                    </br>
+
+                    <!-- Password -->
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required minlength="8"
+                        title="Password must be at least 8 characters long">
+
+                    </br>
+                    </br>
+
+                    <!-- Confirm Password -->
+                    <label for="confirmPassword">Confirm Password:</label>
+                    <input type="password" id="confirmPassword" name="confirmPassword" required>
+
+                    </br>
+                    </br>
+
+                    <!-- Submit Button -->
+                    <button type="sign up">Sign Up</button>
+
+                    <!-- Error Message Display -->
+                    <p id="errorMessage" class="error-message"></p>
+                </form>
+                <p>Already have an account? <a href="login.html">Log in</a>.</p>
+    </div>
+
+
+
+
+    <div class="container">
+        <center>
+            <h1>Personal Internet Banking</h1>
+            <p>Your trusted banking partner, now online.</p>
+    </div>
+    </header>
+
+
+    <!-- Login Form Section -->
+    <center>
+        <section class="login-section">
+            <div class="container">
+                <h2>Secure Login</h2>
+                <form action="dashboard.html" method="post">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" required>
+                    <br>
+                    <br>
+
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+
+                    <br>
+                    <br>
+
+                    
+                
+
+
+                    <button type="submit" class="btn">Log In</button>
+                    <br>
+                </form>
+                <a href="forgot_password.html" class="forgot-password"><br>Forgot Password?</a>
+                <br>
+            </div>
+        </section>
+
+        <!-- Banking Features Section -->
+        <section class="features">
+            <div class="container">
+                <h2>Manage Your Finances</h2>
+                <div class="feature-item">
+                    <a href="account_summary.html">Account Summary</a>
+                    <p>View your account balances and recent transactions.</p>
+                </div>
+                <div class="feature-item">
+                    <a href="fund_transfer.html">Transfer Funds</a>
+                    <p>Securely transfer funds to other accounts.</p>
+                </div>
+                <div class="feature-item">
+                    <a href="transaction_history.html">Transaction History</a>
+                    <p>Check your detailed transaction history.</p>
+                </div>
+                <div class="feature-item">
+                    <a href="support.html">Customer Support</a>
+                    <p>Contact our support team for assistance.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+
+        <section>
+            <footer>
+                <div class="container">
+                    <p>&copy; 2024 Personal Internet Banking. All rights reserved.</p>
+                    <p><a href="privacy_policy.html">Privacy Policy</a> | <a href="terms.html">Terms of Use</a></p>
+                </div>
+            </footer>
+        </section>
+
+        <!--onine tex services  -->
+        <section>
+            <header>
+                <h1>Online Tax Services</h1>
+            </header>
+            <section>
+                <p>Manage and file your taxes online with ease and security.</p>
+
+                <li><a href="#">File a New Return</a></li>
+                <li><a href="#">View Past Filings</a></li>
+                <li><a href="#">Calculate Tax</a></li>
+                <li><a href="#">Customer Support</a></li>
+              <br>
+              <br>
+
+            </section>
+            <footer>
+                <p>&copy; 2024 Your Bank. All rights reserved.</p>
+            </footer>
+            </br>
+        </br>
+        </br>
+        </section>
+
+
+        <!--internationa monet transfer  -->
+        <section>
+            <header>
+                <h1>International Money Transfer</h1>
+            </header>
+            <section>
+                <p>Send and receive money internationally with secure and fast transfer options.</p>
+
+                <li><a href="#">Send Money Internationally</a></li>
+                <li><a href="#">View Exchange Rates</a></li>
+                <li><a href="#">Track Transfers</a></li>
+                <li><a href="#">International Support</a></li>
+               <br>
+              <br>
+
+            </section>
+            <footer>
+                <p>&copy; 2024 Your Bank. All rights reserved.</p>
+            </footer>
+        </section>
+
+        <!--nationa money transfer  -->
+        <section>
+            <header>
+                <h1>National Money Transfer</h1>
+            </header>
+            <section>
+                <p>Quick and easy transfer of funds within the country.</p>
+
+                <li><a href="#">Send Money</a></li>
+                <li><a href="#">View Transfer History</a></li>
+                <li><a href="#">Transfer Limits</a></li>
+                <li><a href="#">Domestic Support</a></li>
+               <br>
+              <br>
+
+            </section>
+            <footer>
+                <p>&copy; 2024 Your Bank. All rights reserved.</p>
+            </footer>
+        </section>
+
+        <!--bill payment  -->
+        <section>
+            <header>
+                <h1>Bill Payment</h1>
+            </header>
+            <section>
+                <p>Pay your bills quickly and easily from one place.</p>
+
+                <li><a href="#">Add a Bill</a></li>
+                <li><a href="#">View Payment History</a></li>
+                <li><a href="#">Set Up Automatic Payments</a></li>
+                <li><a href="#">Customer Support</a></li>
+               <br>
+              <br>
+
+            </section>
+            <footer>
+                <p>&copy; 2024 Your Bank. All rights reserved.</p>
+            </footer>
+        </section>
+
+        <!--fixed deposite  -->
+        <section>
+            <header>
+                <h1>Fixed Deposit</h1>
+            </header>
+            <section>
+                <p>Invest your funds in a Fixed Deposit for guaranteed returns.</p>
+
+                <li><a href="#">Open a New Fixed Deposit</a></li>
+                <li><a href="#">View Existing Deposits</a></li>
+                <li><a href="#">Calculate Interest</a></li>
+                <li><a href="#">Support</a></li>
+               <br>
+              <br>
+
+            </section>
+            <footer>
+                <p>&copy; 2024 Your Bank. All rights reserved.</p>
+            </footer>
+
+        </section>
+
+        <!-- e-services  --> -->
+        <section>
+            <header>
+                <h1>E-Services</h1>
+            </header>
+            <section>
+                <p>Access a wide range of e-services for efficient banking.</p>
+
+                <li><a href="#">Online Banking</a></li>
+                <li><a href="#">Mobile Banking</a></li>
+                <li><a href="#">E-Statements</a></li>
+                <li><a href="#">Support</a></li>
+          <br>
+              <br>
+
+            </section>
+            <footer>
+                <p>&copy; 2024 Your Bank. All rights reserved.</p>
+            </footer>
+        </section>
+
+
+        <!-- my account -->
+        <section>
+            <header>
+                <h1>My Account</h1>
+
+            </header>
+            <section>
+                <p>Manage your personal account details and settings.</p>
+
+                <li><a href="#">View Account Details</a></li>
+                <li><a href="#">Update Profile</a></li>
+                <li><a href="#">Change Password</a></li>
+                <li><a href="#">Change user name</a></li>
+                <li><a href="#">Account Settings</a></li>
+               <br>
+              <br>
+
+            </section>
+            <footer>
+                <p>&copy; 2024 Your Bank. All rights reserved.</p>
+            </footer>
+        </section>
+
+        <!--abount us  -->
+        <section>
+            <header>
+                <h1>About Us</h1>
+            </header>
+            <section>
+                <p>Learn more about our bank's mission, values, and services.</p>
+
+                <li><a href="#">Our Mission</a></li>
+                <li><a href="#">History</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Contact Information</a></li>
+               <br>
+              <br>
+
+            </section>
+            <footer>
+                <p>&copy; 2024 Your Bank. All rights reserved.</p>
+            </footer>
+
+        </section>
+
+
+</body>
+
+</html>
