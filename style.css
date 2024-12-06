@@ -1,0 +1,190 @@
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333; 
+    line-height: 1.2;
+   background-image: linear-gradient(90deg, rgba(103, 126, 250, 1), rgba(142, 84, 219, 1));
+}
+}
+
+/* Header */
+header {
+    background-color:black; 
+    color: black; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    padding: 1em 0; 
+}
+
+header h1 {
+    font-size: 4em; 
+    margin-bottom: 0.5em; 
+}  
+
+header nav ul {
+    list-style: none; 
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+}
+/* link section */
+header nav ul li a {
+    color:white; 
+    text-decoration: none; 
+    font-weight: bold; 
+    padding: 0.5em 1em; 
+    transition: background 0.6s;
+}
+
+header nav ul li a:hover {
+    background-image: linear-gradient(90deg, rgba(57, 210, 248, 1), rgba(48, 97, 96, 1)); /* Gradient on hover */
+    border-radius: 5px; 
+}
+
+/* Banner Section */
+.banner {
+    background-color: mediumpurple; 
+    color: black; 
+    text-align: center; 
+    padding: 2em 0; 
+    border-radius: 10px;
+}
+
+.banner h2 {
+    font-size: 3em; 
+}
+
+.banner p {
+    font-size: 1.6em; 
+}
+
+.banner .btn {
+    background-color: black; 
+    color: lightblue;
+    padding: 0.7em 2em; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    font-weight: bold; 
+    transition: background-color 0.3s, transform 0.3s; 
+}
+
+.banner .btn:hover {
+    background-color: black;
+    color: white; 
+    transform: scale(1.05); /
+}
+
+/* Main Sections with Colored Shadows*/
+.container {
+    max-width: 1200px;
+    margin: auto; 
+    padding: 1em; 
+}
+
+h2 {
+    font-size: 2.5em; 
+    text-decoration:underline;
+    text-align: center; 
+    margin: 1em 0;
+}
+
+/* Login and Signup Containers with Colored Shadows*/
+.login-container,
+.signup-container {
+    background-color: mediumpurple;
+   margin: 1.5em auto;
+   padding: 2em;
+   border-radius: 10px;
+
+}
+
+/* Additional styling for feature items and contact paragraphs*/
+.feature-item,
+.contact p {
+   text-align:center;
+   margin:.5em auto;
+}
+
+/* Forms Styles*/
+form label {
+   font-weight:bold;
+   display:block;
+   margin-top:.5em;
+}
+
+input[type="text"], 
+input[type="password"], 
+input[type="email"], 
+input[type="tel"] {
+   width:40%; 
+   padding:.7em;
+   margin-top:.5em;
+   border:.5px solid #ccc;
+   border-radius:.5em;
+   box-shadow:.5px .5px .5px rgba(0,0,0,.3); // Added input shadow
+}
+
+button {
+   background-color:black;
+   color:white;
+   padding:.8em 1.5em;
+   border:none;
+   border-radius:.5em;
+   cursor:pointer;
+   font-size:1em;
+   margin-top:.8em;
+   transition:bg .3s, transform .3s;
+}
+
+button:hover {
+   background-color:gray;
+   transform: scale(1.05); /
+}
+
+.error-message {
+   color:red;
+   font-size:1em;
+   margin-top:.5em;
+}
+
+/* Footer Styles*/
+footer {
+   background-color:#333;
+   color:white;
+   text-align:center;
+   padding:.8em .2em;
+}
+
+footer p {
+   margin:.5em auto;
+}
+
+footer a {
+   color:#007acc;
+   text-decoration:none;
+}
+
+footer a:hover {
+   color:#005fa3;
+}
+
+/* Links in Features Section*/
+.feature-item a {
+   color:white;
+   font-weight:bold;
+   text-decoration:none;
+}
+
+.feature-item a:hover {
+   color:#005fa3;
+}
+
+/* Utility classes*/
+.text-center { text-align:center;}
+.mt-1 { margin-top:.8em;}
+.mt-2 { margin-top:2em;}
